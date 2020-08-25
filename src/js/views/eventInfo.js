@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-class PlanetInfo extends React.Component {
+class EventInfo extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { planet: [] };
@@ -53,6 +53,6 @@ class PlanetInfo extends React.Component {
 		);
 	}
 }
-PlanetInfo.propTypes = { match: PropTypes.object };
+EventInfo.propTypes = { match: PropTypes.object };
 
-export default PlanetInfo;
+export default EventInfo;

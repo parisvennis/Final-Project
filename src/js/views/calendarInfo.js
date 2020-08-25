@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-class CharacterInfo extends React.Component {
+class CalendarInfo extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { character: [] };
@@ -44,6 +44,6 @@ class CharacterInfo extends React.Component {
 		);
 	}
 }
-CharacterInfo.propTypes = { match: PropTypes.object };
+CalendarInfo.propTypes = { match: PropTypes.object };
 
-export default CharacterInfo;
+export default CalendarInfo;

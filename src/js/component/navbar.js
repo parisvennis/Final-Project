@@ -19,7 +19,7 @@ export const Navbar = () => {
 
 				<div className="logo" style={{ margin: "0 auto" }}>
 					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+						src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30163537/7_big7.png"
 						width="250px"
 						height="150px"
 					/>
@@ -32,7 +32,7 @@ export const Navbar = () => {
 								id="nav-search-input"
 								name="q"
 								type="text"
-								placeholder="Search Star Wars"
+								placeholder="Search Events"
 								spellCheck="false"
 								autoCorrect="off"
 								autoCapitalize="off"
@@ -46,6 +46,9 @@ export const Navbar = () => {
 								</button>
 								<button type="logOut button" className="logOut btn btn-secondary">
 									LOGOUT
+								</button>
+								<button type="createAccount button" className="logOut btn btn-secondary">
+									CREATE ACCOUNT
 								</button>
 							</div>
 						</div>
@@ -74,13 +77,23 @@ export const Navbar = () => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to="/characters">
-								CHARACTERS
+							<Link className="nav-link" to="/events">
+								EVENTS
 							</Link>
 						</li>
 						<li className="nav-item">
 							<Link className="nav-link" to="/planets">
-								PLANETS
+								CALENDAR
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link className="nav-link" to="/planets">
+								ABOUT US
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link className="nav-link" to="/planets">
+								CONTACT US
 							</Link>
 						</li>
 						{/* <li className="nav-item">

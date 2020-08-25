@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-class Planets extends React.Component {
+class Calendar extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { planetList: [] };
@@ -39,6 +39,6 @@ class Planets extends React.Component {
 	}
 }
 
-Planets.propTypes = { history: PropTypes.object };
+Calendar.propTypes = { history: PropTypes.object };
 
-export default Planets;
+export default Calendar;

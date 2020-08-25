@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-class Characters extends React.Component {
+class Events extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = { characterList: [] };
@@ -41,6 +41,6 @@ class Characters extends React.Component {
 	}
 }
 
-Characters.propTypes = { history: PropTypes.object };
+Events.propTypes = { history: PropTypes.object };
 
-export default Characters;
+export default Events;
